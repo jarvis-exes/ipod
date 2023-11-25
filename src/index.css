@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/**************** CSS for App.js ****************/
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.main-frame{
+  height: 550px;
+  width: 300px;
+  background-color: rgb(200, 200, 200);
+  margin-top: 10px;
+  border-radius: 40px;
+  padding-top: 20px;
+  box-shadow: black 0px 0px 28px inset;
+}
+
+/**************** CSS for Screen.js ****************/
+
+.screen{
+  background-color: white;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/**************** CSS for Wheel.js ****************/
+
+.wheel-box{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(200, 200, 200);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.outer-circle{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.inner-circle{
+  background-color: rgb(200, 200, 200);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+  transition-duration: 0.2s;
+}
+
+
+.buttons img{
+  position: absolute;
+  height: 25px;
+  margin-top: -62px;
+  margin-left: 87px;
+  user-select: none;
+}
+
+#play-button{
+  margin-top: 13px;
+}
+
+#menu-button{
+  margin-top: -145px;
+  margin-left: 75px;
+  height: 45px;
+}
+
+#next-button{
+  margin-left: 165px;
+}
+
+#previous-button{
+  margin-left: 12px;
+}
+
